@@ -48,3 +48,22 @@
     color:black;
     background-color:#1e9265;
   }
+
+  .teams {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #1d3d6e;
+  }
+  
+  .teams img {
+    height: 150px;
+  }
+  
+  .score {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #111;
+  }
