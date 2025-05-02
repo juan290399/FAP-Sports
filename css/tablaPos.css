@@ -1,0 +1,50 @@
+:root{
+    --destacado:#0D6859;
+    --fondo-pagina:#e4e6e8;
+  }
+  h1,p{
+    font-family:sans-serif;
+    width:400px;
+    margin:35px auto;
+    text-align:center;
+    color:rgb(21, 25, 223);
+  }
+  p{
+    width:500px;
+  }
+  table{
+    width:720px;
+    margin:0 auto;
+    color:rgb(0, 0, 0);
+    text-align:center;
+  }
+  tr{
+    cursor:pointer;
+  }
+  .destacado{
+    font-family:Arial;
+    font-weight:bold;
+    background-color:var(--destacado);
+  }
+  
+  body{
+    background-color:var(--fondo-pagina);
+  }
+  /* Impares */
+  table tr:nth-child(odd){
+    background-color:#6be7f5;
+  }
+  
+  table tr:nth-child(odd):hover{
+    color:black;
+    background-color:#408c94;
+  }
+  /* Pares */
+  table tr:nth-child(even){
+    background-color:#32f9ac;
+  }
+  
+  table tr:nth-child(even):hover{
+    color:black;
+    background-color:#1e9265;
+  }
