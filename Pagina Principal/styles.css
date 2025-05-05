@@ -12,6 +12,10 @@ body {
     background: #fff;
     border-bottom: 1px solid #000;
   }
+
+  .header h1 {
+    text-align: left;
+  }
   
   .logo {
     width: 60px;
