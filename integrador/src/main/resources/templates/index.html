@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="~{fragments/head(titulo='Inicio', css='/css/index.css')}"></head>
+<body>
+    <div th:replace="~{fragments/navbar}"></div>
+
+    <!-- Carrusel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel"
+        data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/escudo_alas_hierro.png" class="d-block w-100" alt="Escudo 1">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/escudo_amanecer.png" class="d-block w-100" alt="Escudo 2">
+            </div>
+            <div class="carousel-item">
+                <img src="/images/escudo_pacifico.png" class="d-block w-100" alt="Escudo 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Historia del restaurante -->
+    <div class="container my-5">
+        <h2 class="text-center">La Historia de Ruta Marina</h2>
+        <p class="text-center">En Ruta Marina, nos especializamos en ofrecer lo mejor de la comida marina fresca. Desde
+            nuestros inicios, nos hemos comprometido a brindar una experiencia culinaria única en un ambiente relajado y
+            acogedor. ¡Visítanos y descubre por qué somos el lugar preferido por los amantes de los mariscos!</p>
+    </div>
+
+    <!-- Platos destacados -->
+    <div class="container my-5">
+        <h2 class="text-center">Conoce Nuestra Carta</h2>
+        <div class="row">
+            <!-- Plato 1 -->
+            <div class="col-md-4">
+                <div class="dish-box">
+                    <img src="/images/arroz chaufa de mariscos.webp" alt="Dish 1" class="img-fluid">
+                    <h4>Chaufa de Mariscos</h4>
+                </div>
+            </div>
+            <!-- Plato 2 -->
+            <div class="col-md-4">
+                <div class="dish-box">
+                    <img src="/images/Lagostinos en salsa de Maracuya.webp" alt="Dish 2" class="img-fluid">
+                    <h4>Langostinos en Salsa</h4>
+                </div>
+            </div>
+            <!-- Plato 3 -->
+            <div class="col-md-4">
+                <div class="dish-box">
+                    <img src="/images/Ceviche.webp" alt="Dish 3" class="img-fluid">
+                    <h4>Ceviche Mixto</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Plato 4 -->
+            <div class="col-md-4">
+                <div class="dish-box">
+                    <img src="/images/Conchas negras a la chalaca.webp" alt="Dish 4" class="img-fluid">
+                    <h4>Conchas Negras</h4>
+                </div>
+            </div>
+            <!-- Plato 5 -->
+            <div class="col-md-4">
+                <div class="dish-box">
+                    <img src="/images/tequeños mixtos.webp" alt="Dish 5" class="img-fluid">
+                    <h4>Tequeños Mixtos</h4>
+                </div>
+            </div>
+            <!-- Plato 6 -->
+            <div class="col-md-4">
+                <div class="dish-box">
+                    <img src="/images/leche de tigre.webp" alt="Dish 6" class="img-fluid">
+                    <h4>Leche de Tigre</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aquí se incluirá el footer como fragmento -->
+    <div th:replace="~{fragments/footer}"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

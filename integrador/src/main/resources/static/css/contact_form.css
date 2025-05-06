@@ -1,0 +1,102 @@
+.navbar-logo {
+    max-height: 40px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.dish-box {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.dish-box:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.topbar {
+    background-color: #1b3550;
+    padding: 5px 0;
+}
+
+.topbar span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #004976;
+}
+
+.navbar-nav .nav-link {
+    color: #a8e9ff !important;
+}
+
+.navbar .btn-login {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+}
+
+.navbar .btn-login:hover {
+    background-color: #cc7a00;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+footer {
+    background-color: #004976; /* Azul oscuro como el navbar */
+    padding: 40px 20px;
+    text-align: center;
+    color: white; /* Para que el texto sea blanco sobre el fondo oscuro */
+}
+.contact-form {
+    background-color: #f8f9fa; /* Fondo claro */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+}
+
+.contact-form h2 {
+    color: #004976; /* Azul oscuro */
+    font-weight: bold;
+}
+
+.contact-form .form-label {
+    font-weight: bold;
+    color: #1b3550; /* Azul oscuro del esquema */
+}
+
+.contact-form .form-control {
+    border: 1px solid #66b9d1; /* Azul claro */
+    border-radius: 8px;
+}
+
+.contact-form .btn-primary {
+    background-color: #ff9900; /* Naranja para contraste */
+    border: none;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #cc7a00; /* Naranja más oscuro */
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:replace="~{fragments/head :: head(titulo='Conocenos', css='/css/about_us.css')}"></head>
+<body>
+
+    <!-- Incluir el navbar -->
+    <div th:replace="~{fragments/navbar}"></div>
+
+    <div class="hero">
+        <div class="container text-center">
+            <h1 class="section-title">NOSOTROS</h1>
+        </div>
+        <img src="https://www.deljere.com/upload/slider_5.jpg" alt="Platos de comida" />
+    </div>
+
+
+    <div class="contenido">
+        <div class="titulo-seccion">RUTA MARINA</div>
+        <h1>Una parte de nuestra esencia</h1>
+        <p>
+            En Ruta Marina, celebramos lo mejor de la cocina peruana con el ceviche como nuestro principal protagonista.
+            Fundado en 1998, nuestro restaurante nació inspirado por el amor al mar y su frescura, convirtiéndose en un
+            punto de referencia para los amantes del ceviche y otros platos marinos.
+        </p>
+        <p>
+            Nos esforzamos por garantizar la satisfacción de nuestros clientes, ofreciendo siempre lo mejor de nuestra
+            tradición culinaria. Contamos con certificaciones de calidad como la norma “HACCP”, asegurando que cada
+            plato, especialmente nuestro ceviche, cumpla con los más altos estándares de frescura y sabor.
+        </p>
+        <p>
+            Además, disponemos de un servicio de delivery propio, para que puedas disfrutar del auténtico sabor peruano
+            desde la comodidad de tu hogar. Garantizamos que nuestros ceviches y demás especialidades marinas lleguen a
+            tu mesa con la calidad y frescura que nos caracteriza.
+        </p>
+        <p>
+            Ampliamos nuestra cobertura a Chorrillos, Barranco y Surco, para que cada vez más personas puedan disfrutar
+            de nuestra propuesta gastronómica. En Ruta Marina, queremos invitarte a vivir un viaje de sabores que une la
+            tradición del ceviche con la innovación y el cariño que ponemos en cada plato.
+        </p>
+        <div>
+            <img src="https://www.deljere.com/upload/slider_2.jpg" alt="Platos de comida" width="800" height="400">
+        </div>
+
+        <div class="caracteristicas">
+            <div class="caracteristica">
+                <i class="fas fa-heart"></i>
+                <p>
+                    Servimos pasión
+                    <br />
+                    Experiencia desde 1998
+                </p>
+            </div>
+            <div class="caracteristica">
+                <i class="fas fa-award"></i>
+                <p>
+                    Los mejores chef del Perú
+                    <br />
+                    Certificación HACCP
+                </p>
+            </div>
+            <div class="caracteristica">
+                <i class="fas fa-truck"></i>
+                <p>
+                    Gran cobertura de Delivery
+                    <br />
+                    De nuestra cocina a tu hogar
+                </p>
+            </div>
+        </div>
+
+        <div class="mision-vision">
+            <div class="caja">
+                <h2>Misión</h2>
+                <p>
+                    Ofrecer a nuestros clientes una experiencia culinaria excepcional, donde la frescura del ceviche
+                    peruano y otros platos marinos se combinen con un ambiente acogedor y un servicio impecable.
+                </p>
+                <img alt="Clientes disfrutando"
+                    src="https://res.cloudinary.com/restaurant-pe-v2/images/f_auto,q_auto/v1607524749/reputacion-1/reputacion-1.jpg?_i=AA" />
+            </div>
+            <div class="caja">
+                <h2>Visión</h2>
+                <p>
+                    Consolidarnos como un referente en la gastronomía peruana, llevando el sabor auténtico del ceviche y
+                    nuestra tradición marina a nivel internacional.
+                </p>
+                <img alt="Platos exquisitos" src="https://www.deljere.com/upload/slider_4.jpg" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Aquí se incluirá el footer como fragmento -->
+    <div th:replace="~{fragments/footer}"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
